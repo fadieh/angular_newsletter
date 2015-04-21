@@ -1,0 +1,50 @@
+[
+  {
+    "name": "React.JS London",
+    "id": "0",
+    "tag1": "Javascript",
+    "tag2": "Front-End",
+    "tag3": "London",
+    "imageUrl": "images/newsletters/0.jpg"
+  },
+  {
+    "name": "Angular.JS Loft Digital",
+    "id": "1",
+    "tag1": "Javascript",
+    "tag2": "Front-End",
+    "tag3": "Loft Digital",
+    "imageUrl": "images/newsletters/1.jpg"
+  },
+  {
+    "name": "PHP 101",
+    "id": "2",
+    "tag1": "PHP",
+    "tag2": "Tutorials",
+    "tag3": "Tips",
+    "imageUrl": "images/newsletters/2.jpg"
+  },
+  {
+    "name": "Mobile Development",
+    "id": "3",
+    "tag1": "iOS",
+    "tag2": "Android",
+    "tag3": "Tutorials",
+    "imageUrl": "images/newsletters/3.jpg"
+  },
+  {
+    "name": "iBeacon Technology",
+    "id": "4",
+    "tag1": "Bluetooth",
+    "tag2": "Hardware",
+    "tag3": "Tutorials",
+    "imageUrl": "images/newsletters/4.jpg"
+  },
+  {
+    "name": "Future of ES6",
+    "id": "5",
+    "tag1": "Javascript",
+    "tag2": "ES6",
+    "tag3": "Web Development",
+    "imageUrl": "images/newsletters/5.jpg"
+  }
+]

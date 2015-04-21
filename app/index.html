@@ -1,22 +1,28 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="newsletters"> <!--<![endif]-->
+<html lang="en" ng-app="newsletters">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
   <title>Loft: an awesome innovation agency run by technology experts</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <link rel="stylesheet" href="../bower_components/html5-boilerplate/css/normalize.css">
   <link rel="stylesheet" href="../bower_components/html5-boilerplate/css/main.css">
   <link rel="stylesheet" href="css/app.css">
   <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800,700,600,300, 900' rel='stylesheet' type='text/css'>
+
   <script src="../bower_components/html5-boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>
+
 </head>
 
 <body ng-controller="NewsletterCtrl">
 
-  <img class="logo" src="images/logo.png"/>
+  <section class="navbar navbar-default navbar-fixed-top">
+    <img class="logo" src="images/logo.png"/>
+  </section>
+
+
   <h1>Awesome Newsletters Curated by us, for you.</h1>
   <h2>Follow the latest digital technologies, skills, cultures + minds</h2>
   <div ng-view></div>
