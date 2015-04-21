@@ -26,7 +26,12 @@ describe('NewsletterCtrl', function() {
     });
 
     it('initially, the total number of signups is empty', function() {
-      expect(scope.currentSignUps).toBe(0)
+      expect(scope.currentSignUps.length).toBe(0)
+    })
+
+    it('a newsletter may be added to the current signups', function() {
+      scope.addNewsletter({})
+      expect(scope.currentSignUps.length).toBe(1)
     })
 
   })
