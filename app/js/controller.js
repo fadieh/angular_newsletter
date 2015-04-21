@@ -12,4 +12,8 @@ newsletters.controller('NewsletterCtrl', ['$scope', '$http', function($scope, $h
     $scope.currentSignUps.push(newsletter)
   }
 
+  $scope.removeNewsletter = function(index ,newsletter) {
+    $scope.currentSignUps.splice(index, 1)
+  }
+
 }]);
