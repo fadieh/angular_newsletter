@@ -11,18 +11,22 @@ describe('newsletter app', function() {
 
   it('has a name for newsletters', function() {
     expect(newsletter.get(0).getText()).toContain('React.JS London')
-  })
+  });
 
   it('has tag 1 for newsletters', function() {
     expect(newsletter.get(0).getText()).toContain('Javascript')
-  })
+  });
 
   it('has tag 2 for newsletters', function() {
     expect(newsletter.get(0).getText()).toContain('Front-End')
-  })
+  });
 
   it('has tag 3 for newsletters', function() {
     expect(newsletter.get(0).getText()).toContain('London')
-  })
+  });
+
+  it('each newsletter has a add button', function() {
+    expect(element(by.css('.add-to')).isPresent()).toBe(true)
+  });
 
 });
