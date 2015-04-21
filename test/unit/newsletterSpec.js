@@ -25,6 +25,10 @@ describe('NewsletterCtrl', function() {
       expect(scope.newsletters).toEqual([{ name: 'React.JS London', id: '0', tag1: 'Javasccript', tag2: 'Front-End', tag3: 'London' }])
     });
 
+    it('initially, the total number of signups is empty', function() {
+      expect(scope.currentSignUps).toBe(0)
+    })
+
   })
 
 });

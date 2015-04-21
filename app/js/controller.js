@@ -6,4 +6,6 @@ newsletters.controller('NewsletterCtrl', ['$scope', '$http', function($scope, $h
     $scope.newsletters = data
   });
 
+  $scope.currentSignUps = 0
+
 }]);
