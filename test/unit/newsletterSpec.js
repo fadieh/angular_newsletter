@@ -41,6 +41,12 @@ describe('NewsletterCtrl', function() {
       expect(scope.currentSignUps.length).toBe(0)
     });
 
+    it('a newsletter cannot be added twice', function() {
+      scope.addNewsletter({})
+      scope.addNewsletter({})
+      expect(scope.currentSignUps.length).toBe(1)
+    });
+
   })
 
 });

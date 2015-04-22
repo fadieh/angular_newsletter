@@ -1,7 +1,24 @@
-<h1>Working</h1>
 
 <li ng-repeat="newsletter in newsletters">
-<h2>{{ newsletter.name }}</h2>
-<h5>{{ newsletter.tag1 }}, {{ newsletter.tag2 }}, {{ newsletter.tag3 }}
-<button class="add-to">
+  <section class="col-md-4 newsletter-wrap" style="background-image: url({{newsletter.imageUrl}});">
+    <section class="newsletter-name-wrap">
+      <h2>{{ newsletter.name }}</h2>
+    </section>
+    <section class="newsletter-tag-wrap">
+      <h5>{{ newsletter.tag1 }}, {{ newsletter.tag2 }}, {{ newsletter.tag3 }}
+    </section>
+    <section class="newsletter-add-wrap">
+      <button ng-click="addNewsletter(newsletter)" class="add-to">Add</button>
+    </section>
+  </section>
 </li>
+
+<section class="bottom-wrap">
+  <section class="total-text-wrap">
+    You have selected {{ currentSignUps.length }} newsletters.<br>
+  </section>
+  <section class="input-wrap">
+    <input class="input-form" placeholder="hello@you.com"></input><br>
+    <button class="sign-up">Sign Up</button>
+  </section>
+</section>

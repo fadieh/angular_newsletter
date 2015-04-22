@@ -3,6 +3,8 @@ describe('newsletter app', function() {
   beforeEach(function() {
     browser.get('index.html');
     newsletter = element.all(by.repeater('newsletter in newsletters'));
+    signups = element.all(by.repeater('newsletter in currentSignUps'))
+    add = element.all(by.className('add-to')).get(0);
   });
 
   it('has a list of 6 newsletters', function() {
@@ -28,5 +30,10 @@ describe('newsletter app', function() {
   it('each newsletter has a add button', function() {
     expect(element(by.css('.add-to')).isPresent()).toBe(true)
   });
+
+  it('adds to current signs ups when clicking add button', function() {
+    add.click();
+    expect(signups.count()).toEqual(1)
+  })
 
 });
