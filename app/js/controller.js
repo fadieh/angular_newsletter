@@ -14,11 +14,16 @@ newsletters.controller('NewsletterCtrl', ['$scope', '$http', function($scope, $h
       return false
     } else {
       $scope.currentSignUps.push(newsletter)
+      newsletter.signUp = true
     }
+
   }
 
-  $scope.removeNewsletter = function(index ,newsletter) {
+  $scope.removeNewsletter = function(index, newsletter) {
+
     $scope.currentSignUps.splice(index, 1)
+    newsletter.signUp = false
+
   }
 
   $scope.alreadyIn = function(newsletter) {

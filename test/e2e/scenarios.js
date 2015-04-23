@@ -5,6 +5,8 @@ describe('newsletter app', function() {
     newsletter = element.all(by.repeater('newsletter in newsletters'));
     signups = element.all(by.repeater('newsletter in currentSignUps'))
     add = element.all(by.className('add-to')).get(0);
+    remove = element.all(by.className('remove')).get(0);
+    list = element.all(by.className('newsletter-list')).get(0);
   });
 
   it('has a list of 6 newsletters', function() {
@@ -31,9 +33,14 @@ describe('newsletter app', function() {
     expect(element(by.css('.add-to')).isPresent()).toBe(true)
   });
 
-  it('adds to current signs ups when clicking add button', function() {
-    add.click();
-    expect(signups.count()).toEqual(1)
-  })
+  it('has a remove button after a newsletter is added', function() {
+    add.click()
+    expect(remove.isPresent()).toBe(true)
+  });
+
+  it('has a list of newsletters you have added before the signup form', function() {
+    add.click()
+    expect(list.getText()).toContain('React.JS London')
+  });
 
 });

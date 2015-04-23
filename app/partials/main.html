@@ -8,7 +8,13 @@
       <h5>{{ newsletter.tag1 }}, {{ newsletter.tag2 }}, {{ newsletter.tag3 }}
     </section>
     <section class="newsletter-add-wrap">
-      <button ng-click="addNewsletter(newsletter)" class="add-to">Add</button>
+      <div ng-if="newsletter.signUp === false">
+        <button ng-click="addNewsletter(newsletter)" class="add-to">Add</button>
+      </div>
+      <div ng-if="newsletter.signUp === true">
+        <button ng-click="removeNewsletter(index, newsletter)" class="remove">Remove</button>
+      </div>
+      <a href="/newsletter/{{newsletter.id}}">Preview</button>
     </section>
   </section>
 </li>
@@ -16,6 +22,9 @@
 <section class="bottom-wrap">
   <section class="total-text-wrap">
     You have selected {{ currentSignUps.length }} newsletters.<br>
+    <div class="newsletter-list" ng-repeat="newsletter in currentSignUps">
+      {{newsletter.name}}
+    </div>
   </section>
   <section class="input-wrap">
     <input class="input-form" placeholder="hello@you.com"></input><br>

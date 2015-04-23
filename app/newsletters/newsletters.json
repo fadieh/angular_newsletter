@@ -5,7 +5,9 @@
     "tag1": "Javascript",
     "tag2": "Front-End",
     "tag3": "London",
-    "imageUrl": "images/newsletters/0.jpg"
+    "imageUrl": "images/newsletters/0.jpg",
+    "signUp": false,
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     "name": "Angular.JS Loft Digital",
@@ -13,7 +15,9 @@
     "tag1": "Javascript",
     "tag2": "Front-End",
     "tag3": "Loft Digital",
-    "imageUrl": "images/newsletters/1.jpg"
+    "imageUrl": "images/newsletters/1.jpg",
+    "signUp": false,
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     "name": "PHP 101",
@@ -21,7 +25,9 @@
     "tag1": "PHP",
     "tag2": "Tutorials",
     "tag3": "Tips",
-    "imageUrl": "images/newsletters/2.jpg"
+    "imageUrl": "images/newsletters/2.jpg",
+    "signUp": false,
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     "name": "Mobile Development",
@@ -29,7 +35,9 @@
     "tag1": "iOS",
     "tag2": "Android",
     "tag3": "Tutorials",
-    "imageUrl": "images/newsletters/3.jpg"
+    "imageUrl": "images/newsletters/3.jpg",
+    "signUp": false,
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     "name": "iBeacon Technology",
@@ -37,7 +45,9 @@
     "tag1": "Bluetooth",
     "tag2": "Hardware",
     "tag3": "Tutorials",
-    "imageUrl": "images/newsletters/4.jpg"
+    "imageUrl": "images/newsletters/4.jpg",
+    "signUp": false,
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   },
   {
     "name": "Future of ES6",
@@ -45,6 +55,8 @@
     "tag1": "Javascript",
     "tag2": "ES6",
     "tag3": "Web Development",
-    "imageUrl": "images/newsletters/5.jpg"
+    "imageUrl": "images/newsletters/5.jpg",
+    "signUp": false,
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
   }
 ]
