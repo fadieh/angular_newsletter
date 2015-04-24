@@ -14,7 +14,7 @@
       <div ng-if="newsletter.signUp === true">
         <button ng-click="removeNewsletter(index, newsletter)" class="remove">-</button>
       </div>
-      <a href="/app/#/newsletter/{{newsletter.id}}"><img class="preview pull-right" src="./images/preview.png"></a>
+      <a href="/app/#/newsletter/{{newsletter.id}}"><img ng-click="changeView(index)" class="preview pull-right" src="./images/preview.png"></a>
     </section>
   </section>
 </li>

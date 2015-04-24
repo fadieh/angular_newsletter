@@ -108,9 +108,31 @@ li {
 .selected-text {
   color: white;
   letter-spacing: 0.2rem;
+  text-align: center;
 }
 
 .bottom-wrap {
   background-color: #67BDF3;
   padding-bottom: 4rem;
+}
+
+.newsletter-name {
+  text-align: center;
+}
+
+.back-icon {
+  height: 30px;
+  width: 30px;
+  position: absolute;
+  top: 2.5rem;
+}
+
+.newsletter-preview {
+  padding: 0 5rem 0 5rem;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.newsletter-preview-wrap {
+
 }

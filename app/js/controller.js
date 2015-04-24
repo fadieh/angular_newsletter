@@ -1,6 +1,6 @@
 'use strict';
 
-newsletters.controller('NewsletterCtrl', ['$scope', '$http', function($scope, $http) {
+newsletters.controller('NewsletterCtrl', ['$scope', '$http', '$location', function($scope, $http, $location) {
 
   $http.get('newsletters/newsletters.json').success(function(data) {
     $scope.newsletters = data

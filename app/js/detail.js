@@ -7,7 +7,8 @@ newsletters.controller('DetailsCtrl', ['$scope', '$http', '$routeParams', functi
   })
 
   $scope.newsletterNumber = $routeParams.newsletterid
-  $scope.newsletterPreview = $scope.newsletters[$scope.newsletterNumber].tag1
+  $scope.newsletterPreview = $scope.newsletters[$scope.newsletterNumber].body
+  $scope.newsletterName = $scope.newsletters[$scope.newsletterNumber].name
 
 }]);
 
