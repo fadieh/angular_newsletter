@@ -9,25 +9,25 @@
     </section>
     <section class="newsletter-add-wrap">
       <div ng-if="newsletter.signUp === false">
-        <button ng-click="addNewsletter(newsletter)" class="add-to">Add</button>
+        <button ng-click="addNewsletter(newsletter)" class="add-to">+</button><br>
       </div>
       <div ng-if="newsletter.signUp === true">
-        <button ng-click="removeNewsletter(index, newsletter)" class="remove">Remove</button>
+        <button ng-click="removeNewsletter(index, newsletter)" class="remove">-</button>
       </div>
-      <a href="/newsletter/{{newsletter.id}}">Preview</button>
+      <a href="/app/#/newsletter/{{newsletter.id}}"><img class="preview pull-right" src="./images/preview.png"></a>
     </section>
   </section>
 </li>
 
 <section class="bottom-wrap">
-  <section class="total-text-wrap">
-    You have selected {{ currentSignUps.length }} newsletters.<br>
-    <div class="newsletter-list" ng-repeat="newsletter in currentSignUps">
+  <section class="total-text-wrap col-md-6">
+    <h3 class="selected-text">You have selected <b>{{ currentSignUps.length }}</b> newsletters.</h3><br>
+    <div class="newsletter-list col-md-2" ng-repeat="newsletter in currentSignUps">
       {{newsletter.name}}
     </div>
   </section>
-  <section class="input-wrap">
-    <input class="input-form" placeholder="hello@you.com"></input><br>
-    <button class="sign-up">Sign Up</button>
+  <section class="input-wrap col-md-6">
+    <input class="input-form col-md-6" placeholder="hello@you.com"></input>
+    <button class="sign-up col-md-6">Sign Up</button>
   </section>
 </section>

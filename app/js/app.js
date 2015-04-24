@@ -9,12 +9,9 @@ newsletters.config(['$routeProvider', function($routeProvider) {
     templateUrl: 'partials/main.html',
     controller: 'NewsletterCtrl'
   }).
-  when('/newsletter/:newsletterID', {
-    templateUrl: 'partials/detail.html',
-    controller: 'DetailCtrl'
-  }).
-  otherwise({
-    redirectTo: '/'
-  });
+  when('/newsletter/:newsletterid', {
+    templateUrl: 'partials/details.html',
+    controller: 'DetailsCtrl'
+  })
 
 }]);
